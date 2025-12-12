@@ -20,6 +20,55 @@
   </properties>
 
   <dependencies>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-jdbc</artifactId>
+      <version>3.5.3</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>com.jongsoft.lang</groupId>
+      <artifactId>commons</artifactId>
+      <version>0.0.2</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.5.18</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>name.remal.gradle-plugins.lombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>3.0.1</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.33</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>com.mybatis-flex</groupId>
+      <artifactId>mybatis-flex-spring-boot3-starter</artifactId>
+      <version>1.10.8</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <version>3.5.3</version>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
